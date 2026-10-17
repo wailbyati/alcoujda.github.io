@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b274d"/>
+      <stop offset="1" stop-color="#1d4f8f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.8" r="0.8">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g fill="#ffffff" opacity=".12">
+    <circle cx="240" cy="680" r="4"/><circle cx="430" cy="760" r="3"/><circle cx="620" cy="640" r="5"/>
+    <circle cx="820" cy="720" r="3"/><circle cx="1120" cy="660" r="4"/><circle cx="1380" cy="740" r="3"/>
+    <circle cx="1520" cy="600" r="5"/><circle cx="700" cy="830" r="3"/>
+  </g>
+  <circle cx="1200" cy="240" r="300" fill="#0ea5e9" opacity=".10"/>
+  <circle cx="330" cy="430" r="190" fill="#0a2145" opacity=".4"/>
+  <path d="M0 660 C 300 720 640 600 1000 660 C 1260 705 1450 640 1600 690 L 1600 900 L 0 900 Z" fill="#0a2145"/>
+  <path d="M0 770 C 380 710 780 830 1180 760 C 1360 720 1500 770 1600 740 L 1600 900 L 0 900 Z" fill="#0c2b52" opacity=".95"/>
+  <rect x="90" y="150" width="8" height="70" rx="4" fill="#0ea5e9"/>
+  <text x="120" y="196" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff" opacity=".9">LEARN · CONNECT · GROW</text>
+</svg>
